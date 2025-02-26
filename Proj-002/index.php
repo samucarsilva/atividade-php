@@ -40,8 +40,8 @@
                         ];
 
 
-                        foreach($this->prateleira as $produto => $nome) {
-                            echo $produto, $nome . $this->quebraLinha;
+                        foreach($this->prateleira as $chave => $valor) {
+                            echo $chave, $valor . $this->quebraLinha;
                         }
 
                         echo $this->quebraLinha;
